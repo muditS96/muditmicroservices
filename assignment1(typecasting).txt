@@ -1,0 +1,51 @@
+Q1:What are primitive datatypes in java?
+A1:Primitive data types in Java are predefined by the Java language and named as the reserved keywords. A primitive data type does not share a state with other primitive values. There are 8 Primitive data types in Java – Boolean, char, byte, int, short, long, float, and double.
+
+
+Q2:What are identifers are in java?
+A2:Identifiers in Java are a sequence of characters to identify something in a program. They are names given to a class, variable, package, method, or interface and allow the programmer to refer to the specific item from any place in the program.There are some reserved words that cannot be used as identifier.
+
+
+Q3:What is Final class in java?
+The final keyword in java is used to restrict the user, similarly, the final class means that the class cannot be extended. 
+
+Q4:What are two ways to make class final in java?
+we can make a class final in java by using the keyword FINAL.
+Another way to make a class final is to declare all the constructors as private so that it cannot be subclassed.
+
+
+Q5:Can we create instance of final class in another class?
+Yes we can cretae the instance of final class but it cannot be inherited.
+
+
+Q6: What is Volatile keyword used for?
+The volatile keyword prevents the compiler from performing optimization on code involving volatile objects, thus ensuring that each volatile variable assignment and read has a corresponding memory access and should not be cached.
+
+
+Q7: What is the use of Transient keyword?
+The primary role of the transient keyword comes in cases of serialization.Transient keyword indicates that afield should not be serialzed .
+
+
+Q8:What are the type of type casting in java?
+In Java, type casting is a method or process that converts a data type into another data type in both ways manually and automatically.There are two types of type casting namely primitive and explicit.
+Primitive Type casting-converting a smaller type to a larger type size (automatically).
+Derived  Type casting- converting a larger type to a smaller size type
+(manually).
+
+
+Q9: What is boxing and unboxing in java?
+we can understand boxing as a wrapping operation to transform a primitive type into an object (wrapper datatype).
+Unwrapping the wrapper class object into corresponding primitive content is called unboxing.
+
+Q10:What is the difference between keywords,identifiers and literals in java?
+ Keywords are the reserved words that have a pre defined meaning for the compiler and hence are restricted to be used as identifiers.
+
+Identifiers are the name assigned to different programming constructs like classes, interfaces, methods , variables etc.
+
+Literals are the values that are assigned to Identifiers.these are three in number(true,false,null).
+
+For example
+
+int count = 0;
+
+in the above statement "int" is a keyword, "count" is an identifier and "0" is a literal
