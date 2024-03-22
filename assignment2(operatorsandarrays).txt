@@ -1,0 +1,141 @@
+Q:List the Operator  in Java?
+A:The different types of operators in Java are :
+
+1:Arithmetic Operators
+2:Ternary Operators
+3:Bitwise Operator
+4:Relational Operators
+5:Logical Operators
+6:Unary Operators
+7:Assignment Operator
+8:Shift Operator in Java
+
+
+Q:Explain about the increment and decrement operators in java and give examples?
+A:The increment (++) and decrement (-–) operators are unary operators in Java, which means they operate on a single operand. They are used to increase or decrease the value of an integer, floating-point, or character variable by 1. These operators can be applied in two ways: prefix and postfix.
+
+The syntax for increment operator is a pair of addition signs ie;
+x++
+++x
+The syntax for decrement operator is a pair of minus signs ie;
+x-
+--x
+
+
+
+Q:What are the COnditional Operators in java?
+A: Conditional Operators are used in making decisions in programming just as we make decisions in real life. It controls the flow of the program and produces outcomes based on the provided conditions. There are three types of Conditional Operators called as Conditional AND, Conditional OR and Ternary Operator. 
+
+Logical-and operator (&&):
+It is used when we want the condition to be true if both the experession are true.
+Eg:     int value1 = 1;
+        int value2 = 2;
+        if((value1 == 1) && (value2 == 2))
+            System.out.println("value1 is 1 AND value2 is 2");
+			
+			
+			
+			
+Logical-or operator (||):
+This operator is used when we are satisfied as long as any one of the boolean expression is evaluated to be true.	
+
+Eg:     int value1 = 1;
+        int value2 = 2;		
+		  if((value1 == 1) || (value2 == 1))
+            System.out.println("value1 is 1 OR value2 is 1");
+			
+Ternary operator (?:)
+It is a smaller version of the if else statement. If the condition is true then the statement  1 is executed else the statement is executed.
+
+ Eg:       int value1 = 1;
+        int value2 = 2;
+        int result;
+        boolean someCondition = true;
+        result = someCondition ? value1 : value2;
+
+        System.out.println(result);		
+
+
+
+
+
+Q:What are  the types of operators based  on the number of operands?
+A: There are three types of operators in java on based on number  of operands-	
+1 Unary operator
+2 Binary operator
+3 Ternary operator
+
+
+Q: What is th syntax of if else statement?
+A:Syntax
+if(condition1){  
+//code to be executed if condition1 is true  
+}else if(condition2){  
+//code to be executed if condition2 is true  
+}  
+else if(condition3){  
+//code to be executed if condition3 is true  
+}  
+...  
+else{  
+//code to be executed if all the conditions are false  
+}  
+
+
+Q: What are the 3 types of iterative statements in java?
+
+A: 3 types of iterative statement are:
+For loop: Executes a set of statements a fixed number of times.
+While loop: Repeats a set of statements while a given condition is true.
+Do-while loop: Repeats a set of statements at least once and then continues to repeat as long as a given condition is true.
+
+
+
+
+Q: What do you mean by an Array?
+A: In Java, an array is a data structure that can store a fixed-size sequence of elements of the same data type. An array is an object in Java, which means it can be assigned to a variable, passed as a parameter to a method, and returned as a value from a method.
+
+
+
+Q:How to create an array?
+A:Array creation comprises of declaration of array,array construction.
+
+
+Array declarations
+Single Dimension Array
+Two Dimensional Array
+Jagged Array
+
+
+Declaration of array:
+ int[]a ;//recommended to use as variable is separated from type
+ int a[];
+ int []a;
+ int[8]a;  // compile time  error as we cannot specify the size
+ 
+Construction of array:
+every array in array is an object hence we create an array using new keyword;
+
+int []p  =new int[5]
+
+For every type corresponding classes are available but these classes are part of java language but not
+applicable at the programmer level like
+int[] [I
+float[] [F
+double[] [?
+
+
+
+
+
+Q:What is the difference between stringbuilder and stringbuffer in java?
+A:
+StringBuffer Class: StringBuffer is a peer class of String that provides much of the functionality of strings. The string represents fixed-length, immutable character sequences while StringBuffer represents growable and writable character sequences. StringBuffer may have characters and substrings inserted in the middle or appended to the end. It will automatically grow to make room for such additions and often has more characters preallocated than are actually needed, to allow room for growth. In order to create a string buffer, an object needs to be created, (i.e.), if we wish to create a new string buffer with name str, then:
+
+StringBuffer str = new StringBuffer();
+
+
+StringBuilder Class: Similar to StringBuffer, the StringBuilder in Java represents a mutable sequence of characters. Since the String Class in Java creates an immutable sequence of characters, the StringBuilder class provides an alternative to String Class, as it creates a mutable sequence of characters. The function of StringBuilder is very much similar to the StringBuffer class, as both of them provide an alternative to String Class by making a mutable sequence of characters. Similar to StringBuffer, in order to create a new string with the name str, we need to create an object of StringBuilder, (i.e.):
+
+StringBuilder str = new StringBuilder(); 
+ 
